@@ -13,11 +13,11 @@ do
     }
     else if (chute < numeroSecreto)
     {
-        Console.WriteLine("O número é maior.");
+        Console.WriteLine($"O número é maior que {chute}");
     }
     else
     {
-        Console.WriteLine("O número é menor.");
+        Console.WriteLine($"O número é menor que {chute}.");
     }
 
 } while (true);
